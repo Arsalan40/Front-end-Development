@@ -6,13 +6,33 @@
     <title>Alignment</title>
     <style>
       * {
+        box-sizing: border-box;
       }
       .container {
+        width: 900px;
+        border: 3px solid purple;
+        margin: 33px auto;
       }
       .items {
         border: 2px solid black;
         margin: 12px 3px;
         padding: 12px 3px;
+        background-color: rgb(247, 234, 242);
+      }
+
+      #fruit {
+        float: left;
+        width: 48%;
+      }
+      #computer {
+        float: right;
+        width: 48%;
+      }
+
+      #stationary {
+        /* float: left; */
+        clear: right;
+        width: 100%;
       }
     </style>
   </head>
@@ -24,7 +44,11 @@
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi
           assumenda culpa mollitia. Nesciunt expedita aspernatur natus nisi
           voluptas. Doloremque accusamus non dolores cum ipsa maxime velit error
-          assumenda aliquid quasi.
+          assumenda aliquid quasi. Lorem ipsum dolor, sit amet consectetur
+          adipisicing elit. Possimus consequuntur obcaecati facilis veritatis
+          consequatur aspernatur commodi amet quas ex voluptatem ipsum magni,
+          ducimus eum aut dolor necessitatibus aperiam hic? Repellendus, soluta.
+          Qui, ex asperiores!
         </p>
       </div>
       <div id="computer" class="items">
@@ -33,7 +57,11 @@
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi
           assumenda culpa mollitia. Nesciunt expedita aspernatur natus nisi
           voluptas. Doloremque accusamus non dolores cum ipsa maxime velit error
-          assumenda aliquid quasi.
+          assumenda aliquid quasi. Lorem ipsum dolor sit amet consectetur
+          adipisicing elit. Aspernatur dolore itaque cumque, corrupti porro
+          praesentium. Culpa repellat mollitia dicta minima delectus iure
+          aspernatur quos nobis corporis quaerat, debitis commodi dolor autem
+          facilis deserunt. Laborum.
         </p>
       </div>
       <div id="stationary" class="items">
