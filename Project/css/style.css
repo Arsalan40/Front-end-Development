@@ -3,4 +3,19 @@ body {
     margin: 0px;
     padding: 0px;
     background-image: url('../img/gym.jpg');
+    color: white;
+}
+
+.left {
+
+    border: 2px solid red;
+
+}
+
+.mid {
+    border: 2px solid rgb(123, 255, 0);
+}
+
+.right {
+    border: 2px solid rgb(110, 0, 236);
 }
